@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 const Writeups = () => {
   return (
     <div id="Writeups">
+      2021-03-19 -{" "}
+      <Link to="/Blog/Exploit-Education-Nebula-II" className="highlight">
+        Exploit Education: Nebula - Part II
+      </Link>
+      <br />
+      <br />
       2021-03-14 -{" "}
       <Link to="/Blog/Exploit-Education-Nebula-I" className="highlight">
         Exploit Education: Nebula - Part I

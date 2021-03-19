@@ -10,6 +10,7 @@ import RECF from "./components/Blog/RECF";
 import WCB from "./components/Blog/WCB";
 import UDWCC from "./components/Blog/UDWCC";
 import EENI from "./components/Blog/EENI";
+import EENII from "./components/Blog/EENII";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
             component={UDWCC}
           />
           <Route path="/Blog/Exploit-Education-Nebula-I" component={EENI} />
+          <Route path="/Blog/Exploit-Education-Nebula-II" component={EENII} />
         </div>
         <Footer />
       </Router>

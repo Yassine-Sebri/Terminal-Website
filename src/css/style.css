@@ -33,14 +33,14 @@ h1 {
 }
 
 #code {
-  color: rgb(255, 85, 255);
+  color: rgb(204, 0, 0);
   font-family: "VT323", monospace;
   font-size: 1.43em;
   line-height: 75%;
 }
 
 #keyword {
-  color: rgb(255, 85, 255);
+  color: rgb(204, 0, 0);
 }
 
 #type {
