@@ -11,6 +11,7 @@ import WCB from "./components/Blog/WCB";
 import UDWCC from "./components/Blog/UDWCC";
 import EENI from "./components/Blog/EENI";
 import EENII from "./components/Blog/EENII";
+import EEPS from "./components/Blog/EEPS";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
@@ -45,6 +46,10 @@ function App() {
           />
           <Route path="/Blog/Exploit-Education-Nebula-I" component={EENI} />
           <Route path="/Blog/Exploit-Education-Nebula-II" component={EENII} />
+          <Route
+            path="/Blog/Exploit-Education-Phoenix-Stack"
+            component={EEPS}
+          />
         </div>
         <Footer />
       </Router>
